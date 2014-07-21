@@ -19,7 +19,6 @@ source $VIMHOME/common/plugin.vim
 source $VIMHOME/common/vundle.vim
 source $VIMHOME/common/neocompl.vim
 source $VIMHOME/common/bufdel.vim
-colorscheme github
 
 if(g:iswindows)
     source $VIMHOME/windows/windows.vim
