@@ -32,7 +32,7 @@ set fileencodings=utf-8,gbk,ucs-bom,cp936
 set fileencoding=utf-8
 
 "搜索时不区分大小写
-set ic
+"set ic
 
 "matchit启动
 runtime macros/matchit.vim 
