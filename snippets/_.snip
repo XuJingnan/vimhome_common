@@ -1,4 +1,5 @@
 # Global snippets
+include hql.snip
 
 snippet     date
 options     word
@@ -133,7 +134,7 @@ snippet links
     [[${1} | ${2}]]
 
 #bash skeleton
-snippet bash
+snippet bashhead
 	# global start
 	${1}
 	# global end
@@ -142,3 +143,8 @@ snippet bash
 	}
 
 	main
+
+snippet hqlhead
+	SET mapred.job.map.capacity=1000;
+	SET mapred.job.reduce.capacity=1000;
+	SET mapred.job.priority=HIGH;

@@ -1,10 +1,14 @@
 "去掉搜索之后的高亮
 set nohlsearch
 set incsearch
+set nocompatible
+set backspace=indent,eol,start
+syntax on
 
 set showmatch 
 set showcmd
 set title
+set mouse=a
 
 filetype on
 filetype plugin on
