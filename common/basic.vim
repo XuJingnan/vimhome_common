@@ -8,7 +8,6 @@ syntax on
 set showmatch 
 set showcmd
 set title
-set mouse=a
 
 filetype on
 filetype plugin on
@@ -29,6 +28,7 @@ set expandtab
 "长行自动折行
 set wrap
 
+
 "乱码问题
 set encoding=utf-8
 let &termencoding=&encoding
@@ -36,7 +36,7 @@ set fileencodings=utf-8,gbk,ucs-bom,cp936
 set fileencoding=utf-8
 
 "搜索时不区分大小写
-"set ic
+set ic
 
 "matchit启动
 runtime macros/matchit.vim 
